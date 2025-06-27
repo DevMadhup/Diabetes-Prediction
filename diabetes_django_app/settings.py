@@ -8,7 +8,7 @@ SECRET_KEY = 'diabeties'  # Replace with your own
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
