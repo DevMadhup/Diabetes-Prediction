@@ -1,5 +1,5 @@
-fastapi
-uvicorn[standard]
-scikit-learn
-pandas
+Django>=4.0
 joblib
+numpy
+pandas
+scikit-learn

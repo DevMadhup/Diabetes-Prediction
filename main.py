@@ -1,4 +1,3 @@
-# main.py
 from fastapi import FastAPI
 from pydantic import BaseModel
 import joblib
@@ -13,10 +12,6 @@ class DiabetesInput(BaseModel):
     BloodPressure: float
     BMI: float
     Age: int
-
-@app.get("/")
-def read_root():
-    return {"message": "Diabetes Prediction API is live"}
 
 @app.post("/predict")
 def predict(data: DiabetesInput):
